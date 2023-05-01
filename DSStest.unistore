@@ -3,13 +3,13 @@
         "title": "DSStest",
         "author": "DSShop",
         "description": "test",
-        "url": "https://db.universal-team.net/unistore/universal-db-beta.unistore",
+        "url": "https://https://github.com/Micro856/DSShop/blob/main/",
         "file": "DSStest.unistore",
         "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
         "sheet": "universal-db.t3x",
         "bg_index": 1,
         "bg_sheet": 0,
-        "revision": 91,
+        "revision": 1,
         "version": 3
     },
     "storeContent": [
