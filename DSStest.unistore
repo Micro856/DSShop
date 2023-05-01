@@ -70,6 +70,29 @@
                     "type": "deleteFile",
                     "file": "sdmc:/Universal-Updater.cia"
                 }
+                 "info": {
+                "title": "DSTEST",
+                "author": "DSS",
+                "description": "test",
+                "category": ["game"],
+                "console": ["NDS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v2.5.1"
+                },
+                "nintendogs.nds": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://download3.vimm.net/download/?mediaId=10982",
+                    "output": "sdmc:/nintendogs.zip"
+                }
+                "type": "extractFile",
+                "file": "/nintendogs.zip",
+                "input": "Nintendogs - Best Friends (USA).nds",
+                 "output": "/roms/nds/Nintendogs - Best Friends (USA).nds"
+            ],
             ]
         }
     ]
