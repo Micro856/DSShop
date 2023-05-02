@@ -1,62 +1,60 @@
 {
-   "storeInfo":{
-      "author":"DSShop Team",
-      "description":"DSShop ALPHA VERSION TEST",
-      "file":"DSStest.unistore",
-      "revision":1,
-      "sheet":"atlas.t3x",
-      "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
-      "title":"Minecraft 3DS Customization",
-      "url":"https://github.com/Micro856/DSShop/raw/main/DSStest.unistore",
-      "version":3
-   },
-   "storeContent":[
-      {
-         "info":{
-            "title":"TEST",
-            "author":"NOONE",
-            "version":"1",
-            "category":[
-               "utillity"
-            ],
-            "console":[
-               "NDS"
-            ],
-            "icon_index":18,
-            "sheet_index":0,
-            "last_updated":"2023-03-03 at 22:02 (UTC)"
-         },
-         "TEST":[
-            {
-			"type": "promptMessage",
-			"message": "Are you sure you want to do this?",
-			"count": 1
-		}
-         ]
-      },
-      {
-         "info":{
-            "title":"TEST 2",
-            "author":"NOONE",
-            "version":"1",
-            "category":[
-               "utillity"
-            ],
-            "console":[
-               "NDS"
-            ],
-            "icon_index":18,
-            "sheet_index":0,
-            "last_updated":"2023-03-03 at 22:02 (UTC)"
-         },
-         "TEST":[
-            {
-			"type": "promptMessage",
-			"message": "Are you sure you want to do this?",
-			"count": 1
-		}
-	]
-  }
-}
-]
+    "storeInfo": {
+        "title": "dsstest",
+        "author": "dsshop",
+        "description": "a",
+        "url": "https://raw.githubusercontent.com/Micro856/DSShop/main/DSStest.unistore",
+        "file": "DSStest.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "universal-db.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 91,
+        "version": 3
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Universal-Updater",
+                "author": "Universal-Team",
+                "description": "An easy to use app for installing and updating 3DS homebrew",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "gpl-3.0",
+                "version": "v2.5.1"
+            },
+            "Universal-Updater.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
+                }
+            ]
+        },
+        {
+
+            "info": {
+                "title": "TEST2,
+                "author": "A",
+                "description": "A",
+                "category": ["utility"],
+                "console": ["NDS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "a",
+                "version": "v1.0"
+            },
+            "Universal-Updater.3dsx": [
+                {
+                    "type": "promptMessage",
+                    "message": "Are you sure you want to do this?",
+                    "count": 1
+                }
+            ]
+        }
+    ]
 }
