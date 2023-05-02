@@ -1,101 +1,62 @@
 {
-    "storeInfo": {
-        "title": "DSStest",
-        "author": "DSShop",
-        "description": "test",
-        "url": "https://www.github.com/Micro856/DSShop/raw/main/DSStest.unistore",
-        "file": "DSStest.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "universal-db.t3x",
-        "bg_index": 1,
-        "bg_sheet": 0,
-        "revision": 1,
-        "version": 3
-    },
-    "storeContent": [
-        {
-            "info": {
-                "title": "Universal-Updater",
-                "author": "Universal-Team",
-                "description": "An easy to use app for installing and updating 3DS homebrew",
-                "category": ["utility"],
-                "console": ["3DS"],
-                "icon_index": 0,
-                "sheet_index": 0,
-                "last_updated": "2020-07-02 at 14:03 (UTC)",
-                "license": "gpl-3.0",
-                "version": "v2.5.1"
-            },
-            "Universal-Updater.3dsx": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
-                    "output": "%3DSX%/Universal-Updater.3dsx"
-                }
+   "storeInfo":{
+      "author":"DSShop Team",
+      "description":"DSShop ALPHA VERSION TEST",
+      "file":"DSStest.unistore",
+      "revision":1,
+      "sheet":"atlas.t3x",
+      "sheetURL":"https://github.com/bigskribbz/mc-3ds-unistore/raw/main/atlas.t3x",
+      "title":"Minecraft 3DS Customization",
+      "url":"https://github.com/Micro856/DSShop/raw/main/DSStest.unistore",
+      "version":3
+   },
+   "storeContent":[
+      {
+         "info":{
+            "title":"TEST",
+            "author":"NOONE",
+            "version":"1",
+            "category":[
+               "utillity"
             ],
-            "Universal-Updater.cia": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
-                    "output": "sdmc:/Universal-Updater.cia"
-                },
-                {
-                    "type": "installCia",
-                    "file": "/Universal-Updater.cia"
-                },
-                {
-                    "type": "deleteFile",
-                    "file": "sdmc:/Universal-Updater.cia"
-                }
+            "console":[
+               "NDS"
             ],
-            "[nightly] Universal-Updater.3dsx": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
-                    "message": "Downloading Universal-Updater.3dsx...",
-                    "output": "%3DSX%/Universal-Updater.3dsx"
-                }
+            "icon_index":18,
+            "sheet_index":0,
+            "last_updated":"2023-03-03 at 22:02 (UTC)"
+         },
+         "TEST":[
+            {
+			"type": "promptMessage",
+			"message": "Are you sure you want to do this?",
+			"count": 1
+		}
+         ]
+      },
+      {
+         "info":{
+            "title":"TEST 2",
+            "author":"NOONE",
+            "version":"1",
+            "category":[
+               "utillity"
             ],
-            "[nightly] Universal-Updater.cia": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
-                    "output": "sdmc:/Universal-Updater.cia"
-                },
-                {
-                    "type": "installCia",
-                    "file": "/Universal-Updater.cia"
-                },
-                {
-                    "type": "deleteFile",
-                    "file": "sdmc:/Universal-Updater.cia"
-                },
-                {
-                 "info": {
-                "title": "DSTEST",
-                "author": "DSS",
-                "description": "test",
-                "category": ["game"],
-                "console": ["NDS"],
-                "icon_index": 0,
-                "sheet_index": 0,
-                "last_updated": "2020-07-02 at 14:03 (UTC)",
-                "license": "gpl-3.0",
-                "version": "v2.5.1"
-                },
-                "nintendogs.nds": [
-                {
-                    "type": "downloadFile",
-                    "file": "https://download3.vimm.net/download/?mediaId=10982",
-                    "output": "sdmc:/nintendogs.zip"
-                }
-                "type": "extractFile",
-                "file": "/nintendogs.zip",
-                "input": "Nintendogs - Best Friends (USA).nds",
-                 "output": "/roms/nds/Nintendogs - Best Friends (USA).nds"
-                }
+            "console":[
+               "NDS"
             ],
-            ]
-        }
-    ]
+            "icon_index":18,
+            "sheet_index":0,
+            "last_updated":"2023-03-03 at 22:02 (UTC)"
+         },
+         "TEST":[
+            {
+			"type": "promptMessage",
+			"message": "Are you sure you want to do this?",
+			"count": 1
+		}
+	]
+  }
+}
+]
 }
