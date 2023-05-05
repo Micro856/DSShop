@@ -1,0 +1,82 @@
+{
+    "storeInfo": {
+        "title": "DSShop",
+        "author": "DSShop",
+        "description": "DSShop",
+        "url": "https://github.com/Micro856/DSShop/raw/main/DSShop.unistore",
+        "file": "DSShop.unistore",
+        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+        "sheet": "universal-db.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 91,
+        "version": 3
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Mario Kart DS",
+                "author": "Nintendo",
+                "description": "Mario Kart DS",
+                "category": ["utility"],
+                "console": ["NDS"],
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "2020-07-02 at 14:03 (UTC)",
+                "license": "not know",
+                "version": "v1.0.0"
+            },
+            "mkds.nds": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://archive.org/download/MarioKartDSUSM5/Mario%20Kart%20DS%20%28US%29%28M5%29.zip",
+                    "output": "sdmc:/Mario Kart DS (US)(M5).zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "/mcds.zip",
+                    "input": "0168 Mario Kart DS (US)(M5).nds",
+                    "output": "/roms/nds/0168 Mario Kart DS (US)(M5).nds"
+                }
+            ],
+            "Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ],
+            "[nightly] Universal-Updater.3dsx": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
+                    "message": "Downloading Universal-Updater.3dsx...",
+                    "output": "%3DSX%/Universal-Updater.3dsx"
+                }
+            ],
+            "[nightly] Universal-Updater.cia": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia",
+                    "output": "sdmc:/Universal-Updater.cia"
+                },
+                {
+                    "type": "installCia",
+                    "file": "/Universal-Updater.cia"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/Universal-Updater.cia"
+                }
+            ]
+        }
+    ]
+}
